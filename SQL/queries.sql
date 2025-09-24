@@ -131,7 +131,7 @@ sum(case when quantity is null then 1 else 0 end) as quantity_nulls,
 sum(case when price_at_purchase is null then 1 else 0 end) as price_at_purchase_nulls
 from order_items;
 
--- Checking null values in payment
+-- Checking null values in payment table
 select 
 sum(case when payment_id is null then 1 else 0 end) as payment_id_nulls,
 sum(case when order_id is null then 1 else 0 end) as order_id_nulls,
@@ -139,3 +139,43 @@ sum(case when payment_method is null then 1 else 0 end) payment_method_nulls,
 sum(case when amount is null then 1 else 0 end) as amount_nulls,
 sum(case when transaction_status is null then 1 else 0 end) as transaction_status_nulls
 from payment;
+
+-- Checking null values in product table
+select 
+sum(case when product_id is null then 1 else 0 end) as product_id_nulls,
+sum(case when product_name is null then 1 else 0 end) as product_name_nulls,
+sum(case when category is null then 1 else 0 end) category_nulls,
+sum(case when price is null then 1 else 0 end) as price_nulls,
+sum(case when supplier_id is null then 1 else 0 end) as supplier_id_nulls
+from products;
+
+-- Checking null values in shipment table
+select 
+sum(case when shipment_id is null then 1 else 0 end) as shipment_id_nulls,
+sum(case when order_id is null then 1 else 0 end) as order_id_nulls,
+sum(case when shipment_date is null then 1 else 0 end) shipment_date_nulls,
+sum(case when carrier is null then 1 else 0 end) as carrier_nulls,
+sum(case when tracking_number is null then 1 else 0 end) as tracking_number_nulls,
+sum(case when delivery_date is null then 1 else 0 end) as delivery_date_null,
+sum(case when shipment_status is null then 1 else 0 end) as shipment_status_nulls
+from shipment;
+
+-- checking null values in reviews table
+select 
+sum(case when review_id is null then 1 else 0 end) as review_id_nulls,
+sum(case when product_id is null then 1 else 0 end) as product_id_nulls,
+sum(case when customer_id is null then 1 else 0 end) customer_id_nulls,
+sum(case when rating is null then 1 else 0 end) as rating_nulls,
+sum(case when review_text is null then 1 else 0 end) as review_text_nulls,
+sum(case when review_date is null then 1 else 0 end) as review_date_nulls
+from reviews;
+
+-- Checking null values suppliers table
+select 
+sum(case when supplier_name is null then 1 else 0 end) as supplier_name_nulls,
+sum(case when supplier_id is null then 1 else 0 end) as supplier_id_nulls,
+sum(case when contact_name is null then 1 else 0 end) contact_name_nulls,
+sum(case when address is null then 1 else 0 end) as address_nulls,
+sum(case when phone_number is null then 1 else 0 end) as phone_number_nulls,
+sum(case when email is null then 1 else 0 end) as email_nulls
+from suppliers;
