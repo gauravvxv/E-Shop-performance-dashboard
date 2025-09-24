@@ -103,3 +103,39 @@ select count(*) from shipment;
 
 -- Count of suppliers rows (100)
 select count(*) from suppliers;
+
+-- Checking null values in customer table
+select 
+sum(case when customer_id is null then 1 else 0 end) as customer_id_nulls,
+sum(case when first_name is null then 1 else 0 end) as first_name_nulls,
+sum(case when last_name is null then 1 else 0 end) as last_name_nulls,
+sum(case when address is null then 1 else 0 end) as address_nulls,
+sum(case when email is null then 1 else 0 end) as email_nulls,
+sum(case when phone_number is null then 1 else 0 end) as phone_number_nulls
+from customers
+
+-- Checking null values in order table
+select 
+sum(case when order_id is null then 1 else 0 end) as order_id_nulls,
+sum(case when order_date is null then 1 else 0 end) as order_date_nulls,
+sum(case when customer_id is null then 1 else 0 end) customer_id_nulls,
+sum(case when total_price is null then 1 else 0 end) as total_price_nulls
+from orders
+
+-- Checking null values in order-item table
+select 
+sum(case when order_item_id is null then 1 else 0 end) as order_item_id_nulls,
+sum(case when order_id is null then 1 else 0 end) as order_id_nulls,
+sum(case when product_id is null then 1 else 0 end) product_id_nulls,
+sum(case when quantity is null then 1 else 0 end) as quantity_nulls,
+sum(case when price_at_purchase is null then 1 else 0 end) as price_at_purchase_nulls
+from order_items;
+
+-- Checking null values in payment
+select 
+sum(case when payment_id is null then 1 else 0 end) as payment_id_nulls,
+sum(case when order_id is null then 1 else 0 end) as order_id_nulls,
+sum(case when payment_method is null then 1 else 0 end) payment_method_nulls,
+sum(case when amount is null then 1 else 0 end) as amount_nulls,
+sum(case when transaction_status is null then 1 else 0 end) as transaction_status_nulls
+from payment;
