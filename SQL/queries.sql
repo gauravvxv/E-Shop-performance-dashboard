@@ -179,3 +179,17 @@ sum(case when address is null then 1 else 0 end) as address_nulls,
 sum(case when phone_number is null then 1 else 0 end) as phone_number_nulls,
 sum(case when email is null then 1 else 0 end) as email_nulls
 from suppliers;
+
+-- Different Categories
+select distinct category from products;
+
+-- Average,Minimun,Maximum and Total
+select 
+category,
+sum(price) as total_price,
+round(avg(price),2) as average_price,
+min(price) as minimum_price,
+max(price) as maximum_price
+from products
+group by category
+order by total_price desc;
