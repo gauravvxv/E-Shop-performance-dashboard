@@ -75,3 +75,31 @@ address VARCHAR(200),
 phone_number VARCHAR(15),
 email VARCHAR(50)
 )
+
+
+
+-- Data Exploration
+
+-- Count of customers rows (10,000)
+select count(*) from customers; 
+
+-- Count of orders rows (15,000)
+select count(*) from orders;
+
+-- Count of order_items rows (20,000)
+select count(*) from order_items;
+
+-- Count of payments rows (15,000)
+select count(*) from payment;
+
+-- Count of products rows (2000)
+select count(*) from products;
+
+-- Count of reviews rows (1,160)
+select count(*) from reviews;
+
+-- Count of shipment rows (15,000)
+select count(*) from shipment;
+
+-- Count of suppliers rows (100)
+select count(*) from suppliers;
