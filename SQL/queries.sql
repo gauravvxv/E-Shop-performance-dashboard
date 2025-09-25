@@ -183,7 +183,7 @@ from suppliers;
 -- Different Categories
 select distinct category from products;
 
--- Average,Minimun,Maximum and Total
+-- Average,Minimun,Maximum and Total price from product table
 select 
 category,
 sum(price) as total_price,
@@ -193,3 +193,13 @@ max(price) as maximum_price
 from products
 group by category
 order by total_price desc;
+
+-- Count of Products per Category
+select
+category,
+count(product_name) as total_products 
+from products
+group by category
+order by total_products desc;
+
+-- 
