@@ -254,25 +254,25 @@ from payment
 group by transaction_status
 order by total_amount desc;
 
--- 
-
-
  
 -- Products Table:
 
--- Different Categories
-select distinct category from products;
+-- Category analysis (total sales per category)
+select 
+category,
+sum(price) as total_price
+from products
+group by category
+order by total_price desc;
 
 -- Average,Minimun,Maximum and Total price from product table
 select 
 category,
-sum(price) as total_price,
 round(avg(price),2) as average_price,
 min(price) as minimum_price,
 max(price) as maximum_price
 from products
-group by category
-order by total_price desc;
+group by category;
 
 -- Count of Products per Category
 select
@@ -280,5 +280,15 @@ category,
 count(product_name) as total_products 
 from products
 group by category
+order by total_products desc;
+
+-- Top suppliers by number of products
+select 
+s.supplier_name,
+count(p.product_name) as total_products
+from products p
+inner join suppliers s
+on p.supplier_id = s.supplier_id
+group by s.supplier_name
 order by total_products desc;
 
