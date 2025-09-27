@@ -292,3 +292,24 @@ on p.supplier_id = s.supplier_id
 group by s.supplier_name
 order by total_products desc;
 
+-- Reviews Table
+
+-- Average rating per product
+select p.product_name,
+round(avg(r.rating),0) as average_rating
+from reviews r
+inner join products p
+on r.product_id = p.product_id
+group by p.product_name
+order by average_rating desc;
+
+-- Most Reviewed products
+select
+p.product_name,
+count(r.review_id) as maximum_reviewed
+from reviews r
+inner join products p
+on r.product_id = p.product_id
+group by p.product_name
+order by maximum_reviewed desc
+limit 5;
