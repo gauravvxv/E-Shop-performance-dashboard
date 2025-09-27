@@ -335,3 +335,5 @@ SELECT
     COUNT(*) AS total_shipments
 FROM shipment
 GROUP BY shipment_date,delivery_date;
+
+-- 
