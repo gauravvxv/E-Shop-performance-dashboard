@@ -323,3 +323,15 @@ inner join products p
 on r.product_id = p.product_id
 group by r.rating
 order by r.rating desc;
+
+-- Shipment Table
+
+-- On-Time vs Delayed Shipments
+SELECT
+    CASE
+        WHEN delivery_date <= shipment_date THEN 'On-Time'
+        ELSE 'Delayed'
+    END AS shipment_status,
+    COUNT(*) AS total_shipments
+FROM shipment
+GROUP BY shipment_date,delivery_date;
