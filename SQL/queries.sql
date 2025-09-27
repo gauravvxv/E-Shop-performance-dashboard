@@ -214,6 +214,49 @@ limit 5;
 -- Average Order value
  select round(avg(total_price),2) as avg_order_value from orders;
 
+
+--  Order_items Table:
+
+-- Most purchased products (by quantity)
+select
+p.product_name,
+sum(oi.quantity) as quantity 
+from order_items oi
+inner join products p
+on oi.product_id = p.product_id
+group by p.product_name
+order by quantity desc;
+
+-- Revenue by product
+select
+p.product_name,
+sum(oi.quantity * price_at_purchase) as revenue 
+from order_items oi
+inner join products p
+on oi.product_id = p.product_id
+group by p.product_name
+order by revenue desc;
+
+-- Payment Table:
+
+-- Payment methods distribution
+select 
+payment_method,
+sum(amount) as total_amount
+from payment
+group by payment_method
+order by total_amount desc;
+
+-- Failed,Pending and Successfull transactions 
+select transaction_status,
+count(*) as total_amount
+from payment
+group by transaction_status
+order by total_amount desc;
+
+-- 
+
+
  
 -- Products Table:
 
