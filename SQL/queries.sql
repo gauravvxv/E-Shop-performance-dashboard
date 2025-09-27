@@ -336,4 +336,9 @@ SELECT
 FROM shipment
 GROUP BY shipment_date,delivery_date;
 
+-- Supplier Table
+
+-- Number of suppliers
+select count(distinct supplier_name) from suppliers;
+
 -- 
