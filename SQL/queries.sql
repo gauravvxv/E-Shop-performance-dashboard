@@ -313,3 +313,13 @@ on r.product_id = p.product_id
 group by p.product_name
 order by maximum_reviewed desc
 limit 5;
+
+-- Distribution of ratings
+select
+r.rating,
+count(p.product_name) as total_products
+from reviews r
+inner join products p
+on r.product_id = p.product_id
+group by r.rating
+order by r.rating desc;
