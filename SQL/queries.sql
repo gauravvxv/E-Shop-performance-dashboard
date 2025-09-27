@@ -180,6 +180,43 @@ sum(case when phone_number is null then 1 else 0 end) as phone_number_nulls,
 sum(case when email is null then 1 else 0 end) as email_nulls
 from suppliers;
 
+-- Customers Table:
+
+-- Total Customers
+select count(*) as total_customers from customers;
+
+-- Top 5 customer–product–category purchase records by amount
+select c.last_name,
+c.email,
+p.category,
+p.product_name,
+sum(oi.price_at_purchase) as total_purchase_amount 
+from customers c
+inner join orders o
+on c.customer_id = o.customer_id
+inner join order_items oi
+on oi.order_id = o.order_id
+inner join products p
+on oi.product_id = p.product_id
+group by c.last_name,c.email,p.category,p.product_name
+order by total_purchase_amount desc
+limit 5;
+
+-- Orders Table:
+
+-- Number of orders per customer
+ select c.last_name,count(o.order_id) as total_orders from customers c 
+ inner join orders o
+ on c.customer_id = o.customer_id
+ group by c.last_name
+ order by total_orders desc;
+
+-- Average Order value
+ select round(avg(total_price),2) as avg_order_value from orders;
+
+ 
+-- Products Table:
+
 -- Different Categories
 select distinct category from products;
 
@@ -202,4 +239,3 @@ from products
 group by category
 order by total_products desc;
 
--- 
