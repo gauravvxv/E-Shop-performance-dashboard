@@ -214,6 +214,24 @@ limit 5;
 -- Average Order value
  select round(avg(total_price),2) as avg_order_value from orders;
 
+--  Orders as per Year
+select 
+extract(YEAR FROM order_date) as year,
+count(*) as total_orders
+from orders
+group by year
+order by total_orders desc;
+
+-- Orders as per Month of year 2024
+select 
+extract(MONTH FROM order_date) as months,
+count(*) as total_orders
+from orders
+where extract(YEAR from order_date) = 2024
+group by months
+order by total_orders desc;
+
+
 
 --  Order_items Table:
 
