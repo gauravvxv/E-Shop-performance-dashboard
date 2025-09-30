@@ -232,7 +232,6 @@ group by months
 order by total_orders desc;
 
 
-
 --  Order_items Table:
 
 -- Most purchased products (by quantity)
