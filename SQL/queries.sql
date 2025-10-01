@@ -365,6 +365,13 @@ select count(distinct supplier_name) from suppliers;
 
 
 
+
+
+
+
+
+
+
 -- Top 5 Highest spend customers
 select c.last_name,
 sum(o.total_price) as total_spend
