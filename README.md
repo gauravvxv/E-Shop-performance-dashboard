@@ -94,12 +94,12 @@ Insight: The majority of customers gave low ratings, with 1-star (280) and 2-sta
 
 - Top Category by Order
 
-  | Category           | Total Orders |
+| Category        | Total Orders  |
 |-----------------|--------------:|
-| Electronics   | 7.2k           |
-| Home & Kitchen   | 5.3k           |
-| Accessories    | 4.6k          |
-| Furniture   | 2.9k           |
+| Electronics     | 7.2k          |
+| Home & Kitchen  | 5.3k          |
+| Accessories     | 4.6k          |
+| Furniture       | 2.9k          |
 
 
   
