@@ -45,7 +45,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ## Insights & Trends
 
-### Customers insights
+### Customer insights
 - Top 5 Customers by Purchase Amount:
   
 | Customer Name | Total Purchase Amount (₹) |
@@ -90,7 +90,17 @@ Insight: The majority of customers gave low ratings, with 1-star (280) and 2-sta
  Insight: Repeat buyers fluctuate month to month but show an overall positive trend, peaking at 47 in January 2024 and remaining strong during high-sales months like August and October.
 
 
+### Order insights
+
+- Top Category by Order
+
+  | Category           | Total Orders |
+|-----------------|--------------:|
+| Electronics   | 7.2k           |
+| Home & Kitchen   | 5.3k           |
+| Accessories    | 4.6k          |
+| Furniture   | 2.9k           |
 
 
-
+  
 
