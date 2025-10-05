@@ -45,7 +45,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ## Insights & Trends
 
-### Customer insights
+### 🧑‍💼 Customer insights
 #### Top 5 Customers by Purchase Amount:
 
   - Judith and Williams are tied as the highest-spending customers, each contributing ₹6,75,000.
@@ -67,7 +67,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 
 
-### Order insights
+### 🛒 Order insights
 
 #### Top Category by Order:
 - Electronics is the most popular category with 7,200 orders, followed by Home & Kitchen (5,300) and Accessories (4,600).
