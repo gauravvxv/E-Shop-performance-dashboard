@@ -58,7 +58,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 - Customer Rating Distribution:
   
-| Customer Name | Total Purchase Amount (₹) |
+| Rating | Number of Cuatomers |
 |---------------|---------------------------:|
 | 5             | 196                        |
 | 4      | 168                  |
