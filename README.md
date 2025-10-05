@@ -46,17 +46,11 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 ## Insights & Trends
 
 ### Customer insights
-- Top 5 Customers by Purchase Amount:
-  
-| Customer Name | Total Purchase Amount (₹) |
-|---------------|---------------------------:|
-| Judith        | 6,75,000                  |
-| Williams      | 6,75,000                  |
-| Adam          | 6,69,000                  |
-| Frank         | 6,68,000                  |
-| Isbella       | 6,67,000                  |
+#### Top 5 Customers by Purchase Amount:
 
-Insight: These five customers are the highest spenders, contributing significantly to total revenue. Judith and Williams are tied for the top spot at ₹6,75,000 each. Identifying these high-value customers is important for targeted marketing, loyalty programs, and personalized offers to maintain and grow revenue.
+  - Judith and Williams are tied as the highest-spending customers, each contributing ₹6,75,000.
+  - Adam follows closely with ₹6,69,000, while Frank and Isbella contributed ₹6,68,000 and ₹6,67,000, respectively.
+   - These top 5 customers represent a significant portion of total revenue, highlighting the importance of targeted marketing, loyalty programs, and personalized engagement to retain these high-value clients.
 
 - Customer Rating Distribution:
 
@@ -115,3 +109,5 @@ Insight: Electronics dominate the order volume, contributing the most to sales, 
 | Sophia        | 302            |
 
 Insight: Anna is the most frequent buyer with 311 orders, followed closely by Peter and Gregory. Monitoring top buyers helps in designing loyalty programs and personalized offers to maintain engagement and repeat purchases.
+
+- Order Volume Over Time
