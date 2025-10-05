@@ -45,41 +45,54 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ## Insights & Trends
 
-### 1. 🧑‍💼 Customer insights
+### 1. 🧑‍💼 Customer Insights
 #### Top 5 Customers by Purchase Amount:
 
   - Judith and Williams are tied as the highest-spending customers, each contributing ₹6,75,000.
   - Adam follows closely with ₹6,69,000, while Frank and Isbella contributed ₹6,68,000 and ₹6,67,000, respectively.
-   - These top 5 customers represent a significant portion of total revenue, highlighting the importance of targeted marketing, loyalty programs, and personalized engagement to retain these high-value clients.
 
 #### Customer Rating Distribution:
 
 - Most customers gave low ratings, with 1-star (280) and 2-star (266) being the highest counts.
-- High ratings (4-star: 168, 5-star: 196) are comparatively fewer, indicating overall customer dissatisfaction.
-- This suggests potential issues with product quality, service, or delivery that need attention.
+- High ratings (4-star: 168, 5-star: 196) are comparatively fewer, indicating overall customer dissatisfaction..
 
 
 #### Repeat Buyers by Year and Month:
 
 - Repeat buyers fluctuate month to month but show an overall steady trend, with the highest numbers in January 2024 (47) and October 2024 (43).
-- This indicates growing customer loyalty and effectiveness of retention strategies throughout the year.
 
-
-
-
-### 2. 🛒 Order insights
+  
+### 2. 🛒 Order Insights
 
 #### Top Category by Order:
 - Electronics is the most popular category with 7,200 orders, followed by Home & Kitchen (5,300) and Accessories (4,600).
 - Furniture has lower order volumes (2,900 orders), indicating either lower demand or higher price points.
-- This information helps in inventory planning, marketing campaigns, and sales strategy, focusing on high-demand categories while finding ways to boost lower-performing categories.
 
 
 
 #### Top 5 Customers by Order:
 
 - Anna is the most frequent buyer with 311 orders, closely followed by Peter (305) and Gregory (304).
-- Monitoring top buyers helps in designing loyalty programs, promotions, and personalized offers to maintain engagement and repeat purchases.
 
+#### Order Volume Over Time:
 
-- Order Volume Over Time
+- The monthly order volume fluctuates between 1,120 and 1,355 orders, with the highest in October (1,355) and lowest in November (1,120).
+- Peaks in July, August, and October may correspond to seasonal sales or promotions.
+
+  ### 3. 💰 Payments Insights
+
+  #### Payment Success v/s failed:
+
+  - 64% of transactions are successfully completed, which is a good proportion of payments processed.
+  - Pending (17%) and Failed (19%) transactions indicate potential issues with payment gateways, user errors, or network failures.
+
+#### Revenue by Payment Method:
+
+- All revenue is generated via Credit Card payments, indicating a strong preference or limitation in payment options.
+
+#### Monthly Payment Trend
+
+- Payment collection fluctuates month to month, with the highest payments in July (₹492,760) and lowest in November (₹397,750).
+- Peaks in March, July, and August may correspond to promotional campaigns or seasonal sales.
+- This trend helps in forecasting cash flow, planning marketing campaigns, and managing financial operations efficiently.
+  
