@@ -47,12 +47,14 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ### Customers insights
 - Top 5 Customers by Purchase Amount:
-  | Customers | Total Purchasing Amount |
-|----------|----------|
-| Judith | 6,75,000 |
-| Williams | 6,75,000 |
-| Adam | 6,69,000 |
-| Frank | 6,68,000 |
-| Isbella | 6,67,000 | 
+  
+| Customer Name | Total Purchase Amount (₹) |
+|---------------|---------------------------:|
+| Judith        | 6,75,000                  |
+| Williams      | 6,75,000                  |
+| Adam          | 6,69,000                  |
+| Frank         | 6,68,000                  |
+| Isbella       | 6,67,000                  |
+
 
 
