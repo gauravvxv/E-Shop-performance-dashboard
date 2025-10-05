@@ -71,7 +71,7 @@ Insight: The majority of customers gave low ratings, with 1-star (280) and 2-sta
 
 - Repeat Buyers by Year and Month
   | Month       | Repeat Buyers |
-|------------|---------------|
+|------------|--------------- :|
 | November (2023)   | 21    |
 | December (2023)   | 35     |
 | January (2024)    | 47     |
