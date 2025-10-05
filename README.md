@@ -56,6 +56,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 | Frank         | 6,68,000                  |
 | Isbella       | 6,67,000                  |
 
+Insight: These five customers are the highest spenders, contributing significantly to total revenue. Judith and Williams are tied for the top spot at ₹6,75,000 each. Identifying these high-value customers is important for targeted marketing, loyalty programs, and personalized offers to maintain and grow revenue.
 
 - Customer Rating Distribution:
 
