@@ -1,4 +1,4 @@
-<img alt="Zepto-Featured-Image-Option-2" src="https://www.papaki.com/blog/wp-content/uploads/2011/02/image-86.png" width="1000" height="300" />
+![ecom](https://github.com/user-attachments/assets/cb25de37-30fe-4d71-b654-7e46ae87bb43)
 
 # 📊 E-Commerce Analytics Dashboard (Power BI)
 
