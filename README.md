@@ -11,26 +11,35 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ---
 
-## Key KPIs:
+## Key KPIs
 
-- Total Customers: `10,000`
-- Total Orders: `15,000`
-- Total Orders value: `8M`
-- Products Sold: `94,000`
-- Average Order Price: `3,000`
-- Total Payment Collected: `5M`
-- Number of Transactions: `15,000`
-- Average Payment Amount: `359`
-- Successfull Payment: `4M`
-- Total Products: `2000`
-- Total Product Revenue: `42M`
-- Average Product Rating: `3`
-- Total Reviews: `1106`
-- Total Shipment: `15,000`
-- On-Time Delivery Rate: `4,753`
-- Late Delivery: `3286`
-- Total suppliers: `25`
-- Total Products Supplied: `50`
-  
+### Customers & Orders
+- **Total Customers:** 10,000
+- **Total Orders:** 15,000
+- **Total Orders Value:** ₹8,000,000
+- **Average Order Price:** ₹3,000
+- **Products Sold:** 94,000
+
+### Products & Reviews
+- **Total Products:** 2,000
+- **Total Product Revenue:** ₹42,000,000
+- **Average Product Rating:** 3
+- **Total Reviews:** 1,106
+
+### Payments
+- **Total Payment Collected:** ₹5,000,000
+- **Number of Transactions:** 15,000
+- **Average Payment Amount:** ₹359
+- **Successful Payments:** ₹4,000,000
+
+### Shipments
+- **Total Shipments:** 15,000
+- **On-Time Deliveries:** 4,753
+- **Late Deliveries:** 3,286
+
+### Suppliers
+- **Total Suppliers:** 25
+- **Total Products Supplied:** 50
+
     
 
