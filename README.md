@@ -52,62 +52,34 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
   - Adam follows closely with ₹6,69,000, while Frank and Isbella contributed ₹6,68,000 and ₹6,67,000, respectively.
    - These top 5 customers represent a significant portion of total revenue, highlighting the importance of targeted marketing, loyalty programs, and personalized engagement to retain these high-value clients.
 
-- Customer Rating Distribution:
+#### Customer Rating Distribution:
 
-5 ★ | ███████████ 196  
-4 ★ | █████████ 168  
-3 ★ | ███████████ 196  
-2 ★ | ███████████████ 266  
-1 ★ | █████████████████ 280
-
-Insight: The majority of customers gave low ratings, with 1-star (280) and 2-star (266) ratings being the highest. Fewer customers gave high ratings (4-star: 168, 5-star: 196), indicating overall customer dissatisfaction. This suggests there may be issues with product quality, service, or delivery that need attention.
+- Most customers gave low ratings, with 1-star (280) and 2-star (266) being the highest counts.
+- High ratings (4-star: 168, 5-star: 196) are comparatively fewer, indicating overall customer dissatisfaction.
+- This suggests potential issues with product quality, service, or delivery that need attention.
 
 
-- Repeat Buyers by Year and Month
+#### Repeat Buyers by Year and Month:
 
-  
-| Month           | Repeat Buyers |
-|-----------------|--------------:|
-| November 2023   | 21           |
-| December 2023   | 35           |
-| January 2024    | 47           |
-| February 2024   | 39           |
-| March 2024      | 35           |
-| April 2024      | 38           |
-| May 2024        | 36           |
-| June 2024       | 41           |
-| July 2024       | 31           |
-| August 2024     | 43           |
-| September 2024  | 29           |
-| October 2024    | 43           |
+- Repeat buyers fluctuate month to month but show an overall steady trend, with the highest numbers in January 2024 (47) and October 2024 (43).
+- This indicates growing customer loyalty and effectiveness of retention strategies throughout the year.
 
- Insight: Repeat buyers fluctuate month to month but show an overall positive trend, peaking at 47 in January 2024 and remaining strong during high-sales months like August and October.
+
 
 
 ### Order insights
 
-- Top Category by Order
+#### Top Category by Order:
+- Electronics is the most popular category with 7,200 orders, followed by Home & Kitchen (5,300) and Accessories (4,600).
+- Furniture has lower order volumes (2,900 orders), indicating either lower demand or higher price points.
+- This information helps in inventory planning, marketing campaigns, and sales strategy, focusing on high-demand categories while finding ways to boost lower-performing categories.
 
-| Category        | Total Orders   |
-|-----------------|--------------: |
-| Electronics     | 7,200          |
-| Home & Kitchen  | 5,300          |
-| Accessories     | 4,600          |
-| Furniture       | 2,900          |
 
-Insight: Electronics dominate the order volume, contributing the most to sales, followed by Home & Kitchen. Accessories and Furniture have lower order counts but may offer opportunities for targeted promotions or bundling strategies.
 
-- Top 5 Customers by Order
+#### Top 5 Customers by Order:
 
-| Customer Name | Total Orders   |
-|---------------|---------------:|
-| Anna          | 311            |
-| Peter         | 305            |
-| Gregory       | 304            |
-| Rose          | 303            |
-| Jackson       | 302            |
-| Sophia        | 302            |
+- Anna is the most frequent buyer with 311 orders, closely followed by Peter (305) and Gregory (304).
+- Monitoring top buyers helps in designing loyalty programs, promotions, and personalized offers to maintain engagement and repeat purchases.
 
-Insight: Anna is the most frequent buyer with 311 orders, followed closely by Peter and Gregory. Monitoring top buyers helps in designing loyalty programs and personalized offers to maintain engagement and repeat purchases.
 
 - Order Volume Over Time
