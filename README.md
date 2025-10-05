@@ -58,13 +58,14 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 - Customer Rating Distribution:
   
-| Rating | Number of Cuatomers |
-|---------------|---------------------------:|
-| 5             | 196                        |
-| 4      | 168                  |
-| 3          | 196                  |
-| 2         | 266                  |
-| 1       | 280                  |
+### Customer Rating Distribution
+
+5 ★ | ███████████ 196  
+4 ★ | █████████ 168  
+3 ★ | ███████████ 196  
+2 ★ | ███████████████ 266  
+1 ★ | █████████████████ 280  
+
 
 
 
