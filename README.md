@@ -79,7 +79,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 - The monthly order volume fluctuates between 1,120 and 1,355 orders, with the highest in October (1,355) and lowest in November (1,120).
 - Peaks in July, August, and October may correspond to seasonal sales or promotions.
 
-  ### 3. 💰 Payments Insights
+### 3. 💰 Payments Insights
 
   #### Payment Success v/s failed:
 
