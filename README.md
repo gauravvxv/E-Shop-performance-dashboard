@@ -63,7 +63,9 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 4 ★ | █████████ 168  
 3 ★ | ███████████ 196  
 2 ★ | ███████████████ 266  
-1 ★ | █████████████████ 280  
+1 ★ | █████████████████ 280
+
+Insight: The majority of customers gave low ratings, with 1-star (280) and 2-star (266) ratings being the highest. Fewer customers gave high ratings (4-star: 168, 5-star: 196), indicating overall customer dissatisfaction. This suggests there may be issues with product quality, service, or delivery that need attention.
 
 
 
