@@ -105,7 +105,7 @@ Insight: Electronics dominate the order volume, contributing the most to sales, 
 
 - Top 5 Customers by Order
 
-  | Customer Name | Total Orders |
+| Customer Name | Total Orders   |
 |---------------|---------------:|
 | Anna          | 311            |
 | Peter         | 305            |
