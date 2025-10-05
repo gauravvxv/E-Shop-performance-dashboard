@@ -69,5 +69,23 @@ Insight: These five customers are the highest spenders, contributing significant
 Insight: The majority of customers gave low ratings, with 1-star (280) and 2-star (266) ratings being the highest. Fewer customers gave high ratings (4-star: 168, 5-star: 196), indicating overall customer dissatisfaction. This suggests there may be issues with product quality, service, or delivery that need attention.
 
 
+- Repeat Buyers by Year and Month
+  | Month       | Repeat Buyers |
+|------------|---------------|
+| November (2023)   | 21    |
+| December (2023)   | 35     |
+| January (2024)    | 47     |
+| February (2024)   | 39     |
+| March (2024)     |    35   |
+| April (2024)     | 38           |
+| May  (2024)      | 36            |
+| June (2024)      | 41          |
+| July (2024)      | 31           |
+| August (2024)    | 43           |
+| September (2024) | 29           |
+| October (2024)   | 43           |
+
+
+
 
 
