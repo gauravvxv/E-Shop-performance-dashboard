@@ -56,9 +56,8 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 | Frank         | 6,68,000                  |
 | Isbella       | 6,67,000                  |
 
+
 - Customer Rating Distribution:
-  
-### Customer Rating Distribution
 
 5 ★ | ███████████ 196  
 4 ★ | █████████ 168  
