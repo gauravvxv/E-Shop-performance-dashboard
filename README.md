@@ -94,13 +94,24 @@ Insight: The majority of customers gave low ratings, with 1-star (280) and 2-sta
 
 - Top Category by Order
 
-| Category        | Total Orders  |
-|-----------------|--------------:|
-| Electronics     | 7.2k          |
-| Home & Kitchen  | 5.3k          |
-| Accessories     | 4.6k          |
-| Furniture       | 2.9k          |
+| Category        | Total Orders   |
+|-----------------|--------------: |
+| Electronics     | 7,200          |
+| Home & Kitchen  | 5,300          |
+| Accessories     | 4,600          |
+| Furniture       | 2,900          |
 
+Insight: Electronics dominate the order volume, contributing the most to sales, followed by Home & Kitchen. Accessories and Furniture have lower order counts but may offer opportunities for targeted promotions or bundling strategies.
 
-  
+- Top 5 Customers by Order
 
+  | Customer Name | Total Orders |
+|---------------|---------------:|
+| Anna          | 311            |
+| Peter         | 305            |
+| Gregory       | 304            |
+| Rose          | 303            |
+| Jackson       | 302            |
+| Sophia        | 302            |
+
+Insight: Anna is the most frequent buyer with 311 orders, followed closely by Peter and Gregory. Monitoring top buyers helps in designing loyalty programs and personalized offers to maintain engagement and repeat purchases.
