@@ -56,5 +56,15 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 | Frank         | 6,68,000                  |
 | Isbella       | 6,67,000                  |
 
+- Customer Rating Distribution:
+  
+| Customer Name | Total Purchase Amount (₹) |
+|---------------|---------------------------:|
+| 5             | 196                        |
+| 4      | 168                  |
+| 3          | 196                  |
+| 2         | 266                  |
+| 1       | 280                  |
+
 
 
