@@ -27,6 +27,7 @@ CREATE TABLE customers (
     phone_number VARCHAR(12)
 );
 ```
+</details>
 
 <details>
 <summary>Orders Table </summary>
@@ -39,6 +40,7 @@ customer_id INT,
 total_price DECIMAL(10,2)
 );
 ```
+</details>
 
 <details>
 <summary>Order_items Table</summary>
@@ -52,6 +54,7 @@ quantity INT,
 price_at_pruchase DECIMAL(10,2)
 );
 ```
+</details>
 
 <details>
 <summary>Payment Table</summary>
@@ -65,6 +68,8 @@ amount DECIMAL(10,2),
 transaction_status varchar(12)
 );
 ```
+</details>
+
 
 <details>
 <summary>Products Table</summary>
@@ -78,6 +83,7 @@ price DECIMAL(10,2),
 supplier_id INT
 );
 ```
+</details>
 
 <details>
 <summary>Reviews Table</summary>
@@ -92,6 +98,7 @@ review_text VARCHAR(200),
 review_date DATE
 )
 ```
+</details>
 
 <details>
 <summary>Shipment Table</summary>
@@ -107,7 +114,7 @@ delivery_date DATE,
 shipment_status VARCHAR(12)
 );
 ```
-
+</details>
 
 <details>
 <summary>Suppliers Table</summary>
@@ -122,7 +129,7 @@ phone_number VARCHAR(15),
 email VARCHAR(50)
 );
 ```
-
+</details>
 
 ## Key KPIs
 
