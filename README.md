@@ -10,12 +10,14 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 
 ---
+## Tech Stack
+- Database : PostgreSQL
+- Visualization: Power BI
+- Data Source: CSV files
+---
 
 ## Database & Tables
 The project uses PostgreSQL as the database for storing all e-commerce data. A database named E-Shop was created, with the following tables to manage customers, orders, products, payments, shipments, reviews, and suppliers.
-
-### Database Schema
-<img width="1266" height="618" alt="Untitled (1)" src="https://github.com/user-attachments/assets/dd693fd6-ce04-4781-83e5-469712c5c0b5" />
 
 
 <details>
@@ -135,8 +137,6 @@ email VARCHAR(50)
 ```
 </details>
 
-
-
 ### Data Import
 
 - All tables were populated by importing CSV files containing historical e-commerce data.
@@ -144,6 +144,9 @@ email VARCHAR(50)
     - Handling null values
     - Validating dates
     - Ensuring proper IDs and relationships between tables
+
+ ### Database Schema
+<img width="1266" height="618" alt="Untitled (1)" src="https://github.com/user-attachments/assets/dd693fd6-ce04-4781-83e5-469712c5c0b5" />
 
  ---
 
@@ -326,5 +329,11 @@ email VARCHAR(50)
 <img width="390" height="214" alt="products" src="https://github.com/user-attachments/assets/0a95c59a-d63d-4f93-bd82-486bd673d601" />
 <img width="390" height="214" alt="rating" src="https://github.com/user-attachments/assets/522e1ad5-a02a-458d-ae67-f8dc65e5c8b3" />
 <img width="390" height="214" alt="shipment" src="https://github.com/user-attachments/assets/e200be4f-2f77-4d11-a044-57558c59d23a" />
+
+--- 
+
+## Contact
+For any questions or collaboration, reach me at:
+[Gaurav Sharma](mailto:gauravxv0410@gmail.com)
 <img width="390" height="214" alt="suppliers" src="https://github.com/user-attachments/assets/5ca46608-bf6d-4c63-b0a6-9ba31b253927" />
 
