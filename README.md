@@ -183,12 +183,12 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ### Reports Overview
 
-<img width="380" height="211" alt="Introduction" src="https://github.com/user-attachments/assets/e0b5e752-47aa-467f-bf6e-723fb796c2f5" />
-<img width="379" height="215" alt="customers" src="https://github.com/user-attachments/assets/fb00304e-1ada-4914-9f4c-94dcb2a25d87" />
-<img width="383" height="214" alt="orders" src="https://github.com/user-attachments/assets/aabcc20b-e5e6-4be1-b913-b7bacc9f6ef6" />
-<img width="380" height="214" alt="payments" src="https://github.com/user-attachments/assets/6073dd8d-33ca-474a-a96c-2c7f1b446eab" />
-<img width="380" height="214" alt="products" src="https://github.com/user-attachments/assets/0a95c59a-d63d-4f93-bd82-486bd673d601" />
-<img width="379" height="214" alt="rating" src="https://github.com/user-attachments/assets/522e1ad5-a02a-458d-ae67-f8dc65e5c8b3" />
-<img width="380" height="214" alt="shipment" src="https://github.com/user-attachments/assets/e200be4f-2f77-4d11-a044-57558c59d23a" />
-<img width="383" height="214" alt="suppliers" src="https://github.com/user-attachments/assets/5ca46608-bf6d-4c63-b0a6-9ba31b253927" />
+<img width="390" height="211" alt="Introduction" src="https://github.com/user-attachments/assets/e0b5e752-47aa-467f-bf6e-723fb796c2f5" />
+<img width="390" height="215" alt="customers" src="https://github.com/user-attachments/assets/fb00304e-1ada-4914-9f4c-94dcb2a25d87" />
+<img width="390" height="214" alt="orders" src="https://github.com/user-attachments/assets/aabcc20b-e5e6-4be1-b913-b7bacc9f6ef6" />
+<img width="390" height="214" alt="payments" src="https://github.com/user-attachments/assets/6073dd8d-33ca-474a-a96c-2c7f1b446eab" />
+<img width="390" height="214" alt="products" src="https://github.com/user-attachments/assets/0a95c59a-d63d-4f93-bd82-486bd673d601" />
+<img width="390" height="214" alt="rating" src="https://github.com/user-attachments/assets/522e1ad5-a02a-458d-ae67-f8dc65e5c8b3" />
+<img width="390" height="214" alt="shipment" src="https://github.com/user-attachments/assets/e200be4f-2f77-4d11-a044-57558c59d23a" />
+<img width="390" height="214" alt="suppliers" src="https://github.com/user-attachments/assets/5ca46608-bf6d-4c63-b0a6-9ba31b253927" />
 
