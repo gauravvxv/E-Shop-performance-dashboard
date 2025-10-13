@@ -17,7 +17,7 @@ The project uses PostgreSQL as the database for storing all e-commerce data. A d
 <details>
 <summary>Customers Table </summary>
 
-```
+```sql
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -31,7 +31,7 @@ CREATE TABLE customers (
 <details>
 <summary>Orders Table </summary>
 
-```
+```sql
 create table orders (
 order_id INT PRIMARY KEY,
 order_date DATE,
@@ -43,7 +43,7 @@ total_price DECIMAL(10,2)
 <details>
 <summary>Order_items Table</summary>
 
-```
+```sql
 create table order_items(
 order_item_id INT PRIMARY KEY,
 order_id INT,
@@ -56,7 +56,7 @@ price_at_pruchase DECIMAL(10,2)
 <details>
 <summary>Payment Table</summary>
 
-```
+```sql
 create table payment (
 payment_id INT PRIMARY KEY,
 order_id INT,
@@ -69,7 +69,7 @@ transaction_status varchar(12)
 <details>
 <summary>Products Table</summary>
 
-```
+```sql
 create table products (
 product_id INT PRIMARY KEY,
 product_name VARCHAR(50),
@@ -82,7 +82,7 @@ supplier_id INT
 <details>
 <summary>Reviews Table</summary>
 
-```
+```sql
 create table reviews (
 review_id INT PRIMARY KEY,
 product_id INT,
@@ -96,7 +96,7 @@ review_date DATE
 <details>
 <summary>Shipment Table</summary>
 
-```
+```sql
 create table shipment (
 shipment_id INT PRIMARY KEY,
 order_id INT,
@@ -112,7 +112,7 @@ shipment_status VARCHAR(12)
 <details>
 <summary>Suppliers Table</summary>
 
-```
+```sql
 create table suppliers (
 supplier_id INT PRIMARY KEY,
 supplier_name VARCHAR(100),
