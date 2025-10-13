@@ -120,18 +120,18 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ####  Rating Distribution:
 
-- Low ratings (1★ & 2★) account for 546 reviews, which is significantly higher than positive ratings (4★ & 5★) with 364 reviews.
+- Low ratings (`1★ & 2★`) account for 546 reviews, which is significantly higher than positive ratings (`4★ & 5★`) with 364 reviews.
 - This indicates potential product quality or delivery experience issues that need urgent attention.
 - Brands should analyze low-rated products and address recurring complaints to improve trust and retention.
 
 #### Most Reviewed Categories:
 
-- Electronics lead with 406 reviews, showing high engagement possibly due to greater usage and higher expectations.
+- Electronics lead with `406` reviews, showing high engagement possibly due to greater usage and higher expectations.
 - Accessories and Home & Kitchen follow closely, indicating strong everyday usage visibility.
 
 #### Most Reviewed Products
 
-- Four products - Electric Kettle, Screen Protector, Storage Shelf, and Throw Pillow - have perfect 5★ ratings, indicating high customer satisfaction.
-- Food Processor and Phone Grip, with 4★ ratings, still maintain strong positive feedback.
+- Four products - Electric Kettle, Screen Protector, Storage Shelf, and Throw Pillow - have perfect `5★` ratings, indicating high customer satisfaction.
+- Food Processor and Phone Grip, with `4★` ratings, still maintain strong positive feedback.
 - These products can be strategically featured in marketing campaigns or bundled for upselling.
 
