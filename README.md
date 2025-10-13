@@ -11,9 +11,9 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ---
 ## Tech Stack
-- Database : PostgreSQL
-- Visualization: Power BI
-- Data Source: CSV files
+- Database : `PostgreSQL`
+- Visualization: `Power BI`
+- Data Source: `CSV files`
 ---
 
 ## Database & Tables
