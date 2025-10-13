@@ -95,4 +95,23 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 - Payment collection fluctuates month to month, with the highest payments in July (₹492,760) and lowest in November (₹397,750).
 - Peaks in March, July, and August may correspond to promotional campaigns or seasonal sales.
 - This trend helps in forecasting cash flow, planning marketing campaigns, and managing financial operations efficiently.
-  
+
+### 4. 📦 Products Insights
+
+#### Revenue by Category:
+
+- Electronics is the highest revenue-generating category, contributing 35.88% (₹15.25M) alone.
+- Home & Kitchen (26.32%) and Accessories (23.14%) together make up nearly 50% of total revenue, highlighting strong mid-tier performers.
+- Furniture, while contributing the least at 14.66%, still represents a sizable revenue stream and may respond well to bundling or promotional campaigns.
+
+#### Top 5 Products by Revenue:
+
+- 4K Monitor leads as the top-performing product with ₹1.03M in revenue, making it a clear bestseller.
+- Microphone (₹0.98M) and Standing Desk (₹0.97M) are close competitors, showing strong demand among tech and workspace buyers.
+- Kitchen Blender and Air Purifier, despite being from different categories, contribute significantly indicating balanced performance across both electronics and home utility segments.
+
+#### Top 5 Selling Products:
+
+- 4K Monitor leads in both revenue and quantity, making it the strongest overall performer.
+- Throw Pillows and Air Purifier show consistent demand, proving that both home decor and utility products have strong traction.
+- Throw Pillows and Air Purifier show consistent demand, proving that both home decor and utility products have strong traction.
