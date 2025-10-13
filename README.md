@@ -1,1 +1,180 @@
-# E-Shop-performance-dashboard
+<img src="https://fenzodigital.com/wp-content/uploads/2019/03/eCOMMERCE-PLATFORMS.png" width="1000" height="350" />
+
+
+# 📊 E-Commerce Analytics Dashboard (Power BI)
+
+## Overview
+The E-Commerce Analytics Dashboard is a data analytics project designed to provide insights into the operations of an e-commerce business. It leverages PostgreSQL for data storage and Power BI for interactive visualization, enabling users to analyze customer behavior, product performance, sales trends, payments, shipments, and supplier efficiency.
+
+This dashboard is ideal for business analysts, managers, and decision-makers to track key performance metrics and make data-driven decisions.
+
+
+---
+
+## Key KPIs
+
+### Customers & Orders
+- **Total Customers:** `10,000`
+- **Total Orders:** `15,000`
+- **Total Orders Value:** ₹`8,000,000`
+- **Average Order Price:** ₹`3,000`
+- **Products Sold:** `94,000`
+
+### Products & Reviews
+- **Total Products:** `2,000`
+- **Total Product Revenue:** ₹`42,000,000`
+- **Average Product Rating:** `3`
+- **Total Reviews:** `1,106`
+
+### Payments
+- **Total Payment Collected:** ₹`5,000,000`
+- **Number of Transactions:** `15,000`
+- **Average Payment Amount:** ₹`359`
+- **Successful Payments:** ₹`4,000,000`
+
+### Shipments
+- **Total Shipments:** `15,000`
+- **On-Time Deliveries:** `4,753`
+- **Late Deliveries:** `3,286`
+
+### Suppliers
+- **Total Suppliers:** `25`
+- **Total Products Supplied:** `50`
+
+---
+
+## Insights & Trends
+
+### 1. 🧑‍💼 Customer Insights
+#### Top 5 Customers by Purchase Amount:
+
+  - Judith and Williams are tied as the highest-spending customers, each contributing ₹`6,75,000`.
+  - Adam follows closely with ₹`6,69,000`, while Frank and Isbella contributed ₹`6,68,000` and ₹`6,67,000`, respectively.
+
+#### Customer Rating Distribution:
+
+- Most customers gave low ratings, with 1-star (`280`) and 2-star (`266`) being the highest counts.
+- High ratings (4-star: `168`, 5-star: `196`) are comparatively fewer, indicating overall customer dissatisfaction..
+
+
+#### Repeat Buyers by Year and Month:
+
+- Repeat buyers fluctuate month to month but show an overall steady trend, with the highest numbers in `January 2024 (47)` and `October 2024 (43)`.
+
+  
+### 2. 🛒 Order Insights
+
+#### Top Category by Order:
+- Electronics is the most popular `category with 7,200` orders, followed by `Home & Kitchen (5,300)` and `Accessories (4,600)`.
+- `Furniture has lower order volumes (2,900 orders)`, indicating either lower demand or higher price points.
+
+
+
+#### Top 5 Customers by Order:
+
+- Anna is the most frequent buyer with `311` orders, closely followed by Peter (`305`) and Gregory (`304`).
+
+#### Order Volume Over Time:
+
+- The monthly order volume fluctuates between `1,120` and `1,355` orders, with the highest in October (`1,355`) and lowest in November (`1,120`).
+- Peaks in July, August, and October may correspond to seasonal sales or promotions.
+
+### 3. 💰 Payments Insights
+
+  #### Payment Success v/s failed:
+
+  - `64%` of transactions are successfully completed, which is a good proportion of payments processed.
+  - Pending (`17%`) and Failed (`19%`) transactions indicate potential issues with payment gateways, user errors, or network failures.
+
+#### Revenue by Payment Method:
+
+- All revenue is generated via `Credit Card` payments, indicating a strong preference or limitation in payment options.
+
+#### Monthly Payment Trend
+
+- Payment collection fluctuates month to month, with the highest payments in July (₹`492,760`) and lowest in November (₹`397,750`).
+- Peaks in March, July, and August may correspond to promotional campaigns or seasonal sales.
+- This trend helps in forecasting cash flow, planning marketing campaigns, and managing financial operations efficiently.
+
+### 4. 📦 Products Insights
+
+#### Revenue by Category:
+
+- Electronics is the highest revenue-generating category, contributing `35.88%` (₹`15.25M`) alone.
+- Home & Kitchen (`26.32%`) and Accessories (`23.14%`) together make up nearly `50%` of total revenue, highlighting strong mid-tier performers.
+- Furniture, while contributing the least at `14.66%`, still represents a sizable revenue stream and may respond well to bundling or promotional campaigns.
+
+#### Top 5 Products by Revenue:
+
+- 4K Monitor leads as the top-performing product with ₹`1.03M` in revenue, making it a clear bestseller.
+- Microphone (₹`0.98M`) and Standing Desk (₹`0.97M`) are close competitors, showing strong demand among tech and workspace buyers.
+- Kitchen Blender and Air Purifier, despite being from different categories, contribute significantly indicating balanced performance across both electronics and home utility segments.
+
+#### Top 5 Selling Products:
+
+- 4K Monitor leads in both revenue and quantity, making it the strongest overall performer.
+- Throw Pillows and Air Purifier show consistent demand, proving that both home decor and utility products have strong traction.
+- Standing Desk and Kitchen Blender also maintain steady sales at 2K units each, indicating a balance between work-from-home essentials and kitchen appliances.
+
+### 5. ⭐ Reviews Insights
+
+####  Rating Distribution:
+
+- Low ratings (`1★ & 2★`) account for 546 reviews, which is significantly higher than positive ratings (`4★ & 5★`) with 364 reviews.
+- This indicates potential product quality or delivery experience issues that need urgent attention.
+- Brands should analyze low-rated products and address recurring complaints to improve trust and retention.
+
+#### Most Reviewed Categories:
+
+- Electronics lead with `406` reviews, showing high engagement possibly due to greater usage and higher expectations.
+- Accessories and Home & Kitchen follow closely, indicating strong everyday usage visibility.
+
+#### Most Reviewed Products:
+
+- Four products - Electric Kettle, Screen Protector, Storage Shelf, and Throw Pillow - have perfect `5★` ratings, indicating high customer satisfaction.
+- Food Processor and Phone Grip, with `4★` ratings, still maintain strong positive feedback.
+- These products can be strategically featured in marketing campaigns or bundled for upselling.
+
+### 6. 🚚 Shipment Insights
+
+#### Shipment Status Overview:
+
+- Delivered + Shipped orders (`10.7K`) indicate strong logistics execution.
+- However, `3.6K` Pending and `0.7K` Cancelled shipments suggest operational delays or customer drop-offs that may need process improvement.
+
+#### Shipment by Carrier:
+
+- All three carriers equally contribute to shipments `33.33%`, showing balanced logistics partnerships.
+
+#### Delivery Trend Over Time:
+
+- October recorded the highest deliveries (`1,348`), while November saw the lowest (`1,157`).
+- The trend stays consistently above `1.2K`, showcasing stable order fulfillment capacity.
+
+#### Shipment Trend Over Time:
+
+- Shipment and delivery trends are strongly synchronized, confirming efficient dispatch-to-delivery pipelines.
+- October again leads, suggesting it may be a peak season or marketing-driven spike.
+
+### 7. 🏭 Suppliers Insights
+
+#### Total Revenue by Suppliers:
+
+- Next Level Systems dominates supplier revenue, contributing over ₹`3.5M`, making it the most valuable vendor in the ecosystem.
+- The top three suppliers collectively contribute ₹`8.6M`, indicating strong dependency on a limited supplier base.
+
+#### Top 5 Suppliers by Number of Products Supplied:
+
+- `Next Level Systems leads` again, acting as both highest revenue generator and largest product contributor.
+- Two suppliers (`Modern Tech & Ultimate Services`) tie at `120` products, reinforcing competitive supplier diversity.
+
+#### Top 3 Suppliers by Quantity Sold:
+
+- Next Level Systems dominates in product movement, selling over `7.5K` units, nearly `30%` higher than competitors.
+- Ultimate Services & Modern Tech Enterprises have very close competition in second and third place.
+
+#### Revenue by Supplier & Category:
+
+- Next Level Systems and Modern Tech Enterprises are strong in Accessories, each producing ₨`1.16M`, indicating consumer preference for lifestyle add-ons.
+- Premier Logistics Inc. dominates Electronics (₨`1.34M`), while Unified Trading Co. leads with `1.77M` in high-value electronics.
+- Home & Kitchen revenue is centralized with only three suppliers, indicating potential expansion opportunities for others.
