@@ -11,6 +11,23 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ---
 
+## Database & Tables
+The project uses PostgreSQL as the database for storing all e-commerce data. A database named E-Shop was created, with the following tables to manage customers, orders, products, payments, shipments, reviews, and suppliers.
+
+<details>
+<summary>Customers Table - SQL</summary>
+
+```sql
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    address VARCHAR(200),
+    email VARCHAR(200),
+    phone_number VARCHAR(12)
+);
+```
+
 ## Key KPIs
 
 ### Customers & Orders
