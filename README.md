@@ -332,6 +332,9 @@ email VARCHAR(50)
 
 --- 
 
+## 📄 License
+This project is licensed under the [MIT License](LICENSE) - feel free to use, modify, and share it.
+
 ## Contact
 For any questions or collaboration, reach me at:
 [Gaurav Sharma](mailto:gauravxv0410@gmail.com)
