@@ -139,8 +139,8 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 #### Shipment Status Overview:
 
-- Delivered + Shipped orders (10.7K) indicate strong logistics execution.
-- However, 3.6K Pending and 0.7K Cancelled shipments suggest operational delays or customer drop-offs that may need process improvement.
+- Delivered + Shipped orders (`10.7K`) indicate strong logistics execution.
+- However, `3.6K` Pending and `0.7K` Cancelled shipments suggest operational delays or customer drop-offs that may need process improvement.
 
 #### Shipment by Carrier:
 
@@ -155,3 +155,26 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 - Shipment and delivery trends are strongly synchronized, confirming efficient dispatch-to-delivery pipelines.
 - October again leads, suggesting it may be a peak season or marketing-driven spike.
+
+### 7. 🏭 Suppliers Insights
+
+#### Total Revenue by Suppliers:
+
+- Next Level Systems dominates supplier revenue, contributing over ₹`3.5M`, making it the most valuable vendor in the ecosystem.
+- The top three suppliers collectively contribute ₹`8.6M`, indicating strong dependency on a limited supplier base.
+
+#### Top 5 Suppliers by Number of Products Supplied:
+
+- `Next Level Systems leads` again, acting as both highest revenue generator and largest product contributor.
+- Two suppliers (`Modern Tech & Ultimate Services`) tie at `120` products, reinforcing competitive supplier diversity.
+
+#### Top 3 Suppliers by Quantity Sold:
+
+- Next Level Systems dominates in product movement, selling over `7.5K` units, nearly `30%` higher than competitors.
+- Ultimate Services & Modern Tech Enterprises have very close competition in second and third place.
+
+#### Revenue by Supplier & Category:
+
+- Next Level Systems and Modern Tech Enterprises are strong in Accessories, each producing ₨`1.16M`, indicating consumer preference for lifestyle add-ons.
+- Premier Logistics Inc. dominates Electronics (₨`1.34M`), while Unified Trading Co. leads with `1.77M` in high-value electronics.
+- Home & Kitchen revenue is centralized with only three suppliers, indicating potential expansion opportunities for others.
