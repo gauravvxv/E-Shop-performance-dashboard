@@ -178,3 +178,7 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 - Next Level Systems and Modern Tech Enterprises are strong in Accessories, each producing ₨`1.16M`, indicating consumer preference for lifestyle add-ons.
 - Premier Logistics Inc. dominates Electronics (₨`1.34M`), while Unified Trading Co. leads with `1.77M` in high-value electronics.
 - Home & Kitchen revenue is centralized with only three suppliers, indicating potential expansion opportunities for others.
+
+---
+
+### Reports Overview
