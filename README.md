@@ -138,7 +138,8 @@ email VARCHAR(50)
     - Handling null values
     - Validating dates
     - Ensuring proper IDs and relationships between tables
- 
+
+ ---
 
 ## Key KPIs
 
