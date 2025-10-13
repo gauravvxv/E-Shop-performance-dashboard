@@ -129,9 +129,29 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 - Electronics lead with `406` reviews, showing high engagement possibly due to greater usage and higher expectations.
 - Accessories and Home & Kitchen follow closely, indicating strong everyday usage visibility.
 
-#### Most Reviewed Products
+#### Most Reviewed Products:
 
 - Four products - Electric Kettle, Screen Protector, Storage Shelf, and Throw Pillow - have perfect `5★` ratings, indicating high customer satisfaction.
 - Food Processor and Phone Grip, with `4★` ratings, still maintain strong positive feedback.
 - These products can be strategically featured in marketing campaigns or bundled for upselling.
 
+### 6. 🚚 Shipment Insights
+
+#### Shipment Status Overview:
+
+- Delivered + Shipped orders (10.7K) indicate strong logistics execution.
+- However, 3.6K Pending and 0.7K Cancelled shipments suggest operational delays or customer drop-offs that may need process improvement.
+
+#### Shipment by Carrier:
+
+- All three carriers equally contribute to shipments `33.33%`, showing balanced logistics partnerships.
+
+#### Delivery Trend Over Time:
+
+- October recorded the highest deliveries (`1,348`), while November saw the lowest (`1,157`).
+- The trend stays consistently above `1.2K`, showcasing stable order fulfillment capacity.
+
+#### Shipment Trend Over Time:
+
+- Shipment and delivery trends are strongly synchronized, confirming efficient dispatch-to-delivery pipelines.
+- October again leads, suggesting it may be a peak season or marketing-driven spike.
