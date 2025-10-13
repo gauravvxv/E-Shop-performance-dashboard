@@ -11,6 +11,142 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 
 ---
 
+## Database & Tables
+The project uses PostgreSQL as the database for storing all e-commerce data. A database named E-Shop was created, with the following tables to manage customers, orders, products, payments, shipments, reviews, and suppliers.
+
+### Database Schema
+<img width="1266" height="618" alt="Untitled (1)" src="https://github.com/user-attachments/assets/dd693fd6-ce04-4781-83e5-469712c5c0b5" />
+
+
+<details>
+<summary>Customers Table </summary>
+
+```sql
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    address VARCHAR(200),
+    email VARCHAR(200),
+    phone_number VARCHAR(12)
+);
+```
+</details>
+
+<details>
+<summary>Orders Table </summary>
+
+```sql
+create table orders (
+order_id INT PRIMARY KEY,
+order_date DATE,
+customer_id INT,
+total_price DECIMAL(10,2)
+);
+```
+</details>
+
+<details>
+<summary>Order_items Table</summary>
+
+```sql
+create table order_items(
+order_item_id INT PRIMARY KEY,
+order_id INT,
+product_id INT,
+quantity INT,
+price_at_pruchase DECIMAL(10,2)
+);
+```
+</details>
+
+<details>
+<summary>Payment Table</summary>
+
+```sql
+create table payment (
+payment_id INT PRIMARY KEY,
+order_id INT,
+payment_method VARCHAR(20),
+amount DECIMAL(10,2),
+transaction_status varchar(12)
+);
+```
+</details>
+
+
+<details>
+<summary>Products Table</summary>
+
+```sql
+create table products (
+product_id INT PRIMARY KEY,
+product_name VARCHAR(50),
+category VARCHAR(20),
+price DECIMAL(10,2),
+supplier_id INT
+);
+```
+</details>
+
+<details>
+<summary>Reviews Table</summary>
+
+```sql
+create table reviews (
+review_id INT PRIMARY KEY,
+product_id INT,
+customer_id INT,
+rating INT,
+review_text VARCHAR(200),
+review_date DATE
+)
+```
+</details>
+
+<details>
+<summary>Shipment Table</summary>
+
+```sql
+create table shipment (
+shipment_id INT PRIMARY KEY,
+order_id INT,
+shipment_date DATE,
+carrier VARCHAR(10),
+tracking_number VARCHAR(10),
+delivery_date DATE,
+shipment_status VARCHAR(12)
+);
+```
+</details>
+
+<details>
+<summary>Suppliers Table</summary>
+
+```sql
+create table suppliers (
+supplier_id INT PRIMARY KEY,
+supplier_name VARCHAR(100),
+contact_name VARCHAR(50),
+address VARCHAR(200),
+phone_number VARCHAR(15),
+email VARCHAR(50)
+);
+```
+</details>
+
+
+
+### Data Import
+
+- All tables were populated by importing CSV files containing historical e-commerce data.
+- Basic data cleaning was performed:
+    - Handling null values
+    - Validating dates
+    - Ensuring proper IDs and relationships between tables
+
+ ---
+
 ## Key KPIs
 
 ### Customers & Orders
@@ -178,3 +314,17 @@ This dashboard is ideal for business analysts, managers, and decision-makers to 
 - Next Level Systems and Modern Tech Enterprises are strong in Accessories, each producing ₨`1.16M`, indicating consumer preference for lifestyle add-ons.
 - Premier Logistics Inc. dominates Electronics (₨`1.34M`), while Unified Trading Co. leads with `1.77M` in high-value electronics.
 - Home & Kitchen revenue is centralized with only three suppliers, indicating potential expansion opportunities for others.
+
+---
+
+### Reports Overview
+
+<img width="390" height="211" alt="Introduction" src="https://github.com/user-attachments/assets/e0b5e752-47aa-467f-bf6e-723fb796c2f5" />
+<img width="390" height="215" alt="customers" src="https://github.com/user-attachments/assets/fb00304e-1ada-4914-9f4c-94dcb2a25d87" />
+<img width="390" height="214" alt="orders" src="https://github.com/user-attachments/assets/aabcc20b-e5e6-4be1-b913-b7bacc9f6ef6" />
+<img width="390" height="214" alt="payments" src="https://github.com/user-attachments/assets/6073dd8d-33ca-474a-a96c-2c7f1b446eab" />
+<img width="390" height="214" alt="products" src="https://github.com/user-attachments/assets/0a95c59a-d63d-4f93-bd82-486bd673d601" />
+<img width="390" height="214" alt="rating" src="https://github.com/user-attachments/assets/522e1ad5-a02a-458d-ae67-f8dc65e5c8b3" />
+<img width="390" height="214" alt="shipment" src="https://github.com/user-attachments/assets/e200be4f-2f77-4d11-a044-57558c59d23a" />
+<img width="390" height="214" alt="suppliers" src="https://github.com/user-attachments/assets/5ca46608-bf6d-4c63-b0a6-9ba31b253927" />
+
