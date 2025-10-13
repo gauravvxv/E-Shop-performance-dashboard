@@ -131,6 +131,15 @@ email VARCHAR(50)
 ```
 </details>
 
+### Data Import
+
+- All tables were populated by importing CSV files containing historical e-commerce data.
+- Basic data cleaning was performed:
+    - Handling null values
+    - Validating dates
+    - Ensuring proper IDs and relationships between tables
+ 
+
 ## Key KPIs
 
 ### Customers & Orders
